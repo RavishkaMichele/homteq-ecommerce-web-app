@@ -27,16 +27,31 @@ Homteq is a PHP and MySQL-based web application designed as an online store for 
 
 ```## 📂 Project Structure
 homteq/
-│── index.php # Home page (product listing)
-│── prodbuy.php # Product details page
-│── basket.php # Shopping cart functionality
-│── aboutus.php # About page
-│── template.php # Template page
-│── db.php # Database connection
-│── headfile.html # Header & navigation
-│── footfile.html # Footer
-│── mystylesheet.css # Styling
-│── images/ # Product images
+│
+├── index.php              # Homepage (displays all products)
+├── prodbuy.php           # Product details & add to basket
+├── basket.php            # Shopping cart (session-based)
+├── aboutus.php           # About page
+├── template.php          # Generic template page
+├── db.php                # Database connection
+│
+├── headfile.html         # Header + navigation bar
+├── footfile.html         # Footer layout
+│
+├── mystylesheet.css      # Main stylesheet
+│
+├── images/               # Product images
+│   ├── g5_large.jpg
+│   ├── g5_small.jpg
+│   ├── k2_large.jpg
+│   ├── k2_small.jpg
+│   ├── mx_large.jpg
+│   ├── mx_small.jpg
+│   ├── sony_large.jpg
+│   ├── sony_small.jpg
+│
+├── bgimg.jpg             # Background image
+├── homteq_logo.png       # Website logo
 ```
 
 ---
